@@ -1,52 +1,38 @@
 # chaos-labs
 
-> Resilience is not a feature. It is a behavior learned under stress.
+> Experiments, tooling, and patterns for resilience engineering, automation, and controlled chaos.
 
-chaos-labs is a hands-on lab for **intentionally breaking systems** in order to understand them, harden them, and operate them with confidence.
+## Why chaos-labs exists
 
-This repository exists because:
-- Reliability discovered in production is too late
-- Dashboards without failure context lie
-- “It should be fine” is not an engineering strategy
+Modern systems fail in complex, non-obvious ways.  
+chaos-labs is a hands-on lab for exploring:
 
-## Core beliefs
+- Resilience engineering
+- Failure testing and chaos experiments
+- Platform automation (Kubernetes, CI/CD, cloud)
+- SRE & operational maturity patterns
+- AI-assisted operations and developer productivity
 
-- **Failure is inevitable** — pretending otherwise creates fragile systems
-- **Confidence comes from exposure**, not documentation
-- **Automation without understanding amplifies risk**
-- **Resilience must be exercised**, not reviewed in design docs
+This repo evolves as experiments become tools, and tools become reusable patterns.
 
-If you’re looking for polished frameworks or vendor-neutral platitudes, this is not that repo.
+## Repository structure (evolving)
 
-## What lives here
-
-This is a working lab, not a library.
-
-
-Everything here exists for one reason:  
-**to reduce surprise when things break for real.**
-
-## How to use this repo
-
-- Run experiments in **non-production environments**
-- Read patterns as **contextual guidance**, not universal truth
-- Steal ideas, adapt aggressively, discard what doesn’t fit
-
-This repo favors **clarity over completeness** and **learning over safety theater**.
-
-## Non-goals
-
-- Generic “best practices”
-- Vendor marketing abstractions
-- One-size-fits-all architectures
-- Chaos for chaos’ sake
-
-Breaking things without learning is just noise.
+🚧 Early-stage, actively evolving.
 
 ## Status
 
-🚧 Actively evolving.  
-Expect strong opinions, incomplete edges, and iteration.
+🚧 Early-stage, actively evolving.
+
+Expect:
+- Incomplete experiments
+- Opinionated approaches
+- Iterative refinement
+
+## How to engage
+
+- Open issues for ideas or improvements
+- Fork and experiment
+- Use patterns as inspiration, not gospel
 
 ## License
 
